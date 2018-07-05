@@ -1,0 +1,29 @@
+body{
+  background:lightpink;
+text-align: center;
+}
+img{
+  width:60%;
+}
+.card
+{
+  background:lightblue;
+  width:20%;
+border-radius: 2em;
+}
+#card
+{
+  justify-content: space-around;
+  display:flex;
+  margin:2%;
+}
+.card:hover
+{
+  box-shadow: 0 20px 20px lightgreen;
+}
+@media only screen and(main-device-written:350px)and(main-device-written:460px)
+{
+.card{
+  width:100;
+}
+}
